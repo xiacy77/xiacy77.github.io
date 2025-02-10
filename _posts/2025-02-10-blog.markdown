@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Blog!"
+date:   2025-02-10 18:05:51 +0800
+categories: xiacy77
+---
+
+## 发布流程
+1. 创建一篇博客
+
+创建一个以`.md`后缀结尾的文件，例如`2025-02-02-XXX.md`
+
+将以下内容添加到新建文件的头部
+
+```
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2025-02-10 18:05:51 +0800
+categories: jekyll update
+---
+```
+
+
+2. 将文件添加到本地 git 版本管理
+
+```
+git add 2025-02-02-XXX.md
+```
+
+```
+git commit -m "add 2025-02-02-XXX.md"
+```
+
+3. 将本地的修改提交到 github
+
+```
+git push origin main
+```
